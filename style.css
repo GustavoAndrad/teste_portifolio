@@ -16,24 +16,24 @@
     flex-direction: column;
 }
 
-#mensagem{
-    width: 30%;
-    height: 10%;
-    background-color: brown;
-    border: 2px solid;
-    border-color: black;
-    border-radius: 20px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-bottom: 2%;
+#engrenagens{
+    display: inline-flex;
 }
 
-#texto{
-    font-size: 1.3em;
-    color: rgb(255, 125, 3);
+.roda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+  
+@keyframes curveText {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 #numeros{
